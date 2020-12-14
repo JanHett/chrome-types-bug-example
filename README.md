@@ -1,4 +1,4 @@
-# Chrome extension continaing example for incompleteness of [`chrome-types`](https://github.com/GoogleChrome/chrome-types)
+# Chrome extension containing example for incompleteness of [`chrome-types`](https://github.com/GoogleChrome/chrome-types)
 
 Dashlane's initial testing indicates that `chrome-types` is incomplete. This
 example shows how a valid use of `chrome.runtime.onMessage.addListener` fails to
@@ -25,3 +25,12 @@ Other cases of incomplete types we have found so far are:
   incorrectly typed as `() => void`
 * `chrome.runtime.onConnect.addListener` - the callback parameter is incorrectly
   typed as `() => void`
+
+## Building and running the demo extension
+
+```
+npm i
+npm run build
+```
+
+The root directory can then be loaded as a Chrome extension (manifest v3 style).

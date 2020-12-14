@@ -1,20 +1,6 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "isolatedModules": false,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "declaration": false,
-        "strictBindCallApply": true,
-        "removeComments": true,
-        "noLib": false,
-        "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "sourceMap": true,
-        "noImplicitReturns": true,
-        "baseUrl": "./",
         "strict": true,
         "typeRoots": [
             "./node_modules/@types",
