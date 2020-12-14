@@ -1,0 +1,17 @@
+{
+  "name": "chrome-types-bug-example",
+  "version": "1.0.0",
+  "description": "Minimal extension illustrating incompleteness of chrome-types package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Dashlane",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chrome-types": "0.0.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
